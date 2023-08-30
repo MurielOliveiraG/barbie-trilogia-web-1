@@ -1,215 +1,217 @@
-ul {
-    display: inline-block;
-    margin: 100px;
-    padding: 10px;
-    list-style: none;
-    color: #ff0055;
-    
-}
-
-ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header {
-    text-align: center;
-    list-style-type: none;
-    background-image: url('../img/pink-yellow-plain-background.jpg');
-    width:auto;
-    height:300px;
-    
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #ffb7c9;
-   
+  background-color: #ffb7c9;
 }
 
 body::before {
-    content: "";
-    background-image: url('../img/ee1b170518678b31fcc69492cf65fd32.jpg');
-    background-size:contain; 
-    background-repeat: repeat; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3; 
-    z-index: -1; 
-  }
-  
+  content: "";
+  background-image: url('../img/ee1b170518678b31fcc69492cf65fd32.jpg');
+  background-size: contain;
+  background-repeat: repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  list-style-type: none;
+  background-image: url('../img/pink-yellow-plain-background.jpg');
+  width: auto;
+  height: 400px;
+  padding: 10px;
+}
+
+#titulo {
+  padding: 25px;
+}
+
+ul {
+  display: inline-block;
+  margin: 100px;
+  padding: 10px;
+  list-style: none;
+  color: #ff0055;
+
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
 
 h1 {
-    color:#ff0055;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 60px;
-
-   
-
+  color: #ff0055;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
 }
 
 p {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Inter Tight', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Inter Tight', sans-serif;
+  padding: 10px;
 }
 
 a {
-    color: #ff0055;
-    text-decoration: none;
-    font-family: 'Inter Tight', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+  color: #ff0055;
+  text-decoration: none;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-#introducao{
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+#introducao {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+#introducao2 {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 h2 {
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    color:#ff0055 ;
-
+  text-align: center;
+  padding: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: #ff0055;
 }
 
-h3 {
-    font-weight: 400;
-    font-family: 'Inter Tight', sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
+section {
+  padding: 10px;
 }
 
+h3,
 .secao-descricao {
-    margin-left: 40px;
-    margin-bottom: 40px;
-
-
+  font-weight: 400;
+  font-family: 'Inter Tight', sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
 }
 
 .secao-botao {
-    margin-left: 40px;
-    margin-top: 500px;
-    color: #FFF;
-    background-color: #ff0055;
-    padding: 20px;
-    border-radius: 50px;
-    font-family: 'Inter Tight', sans-serif;
-
-    
-
+  margin-left: 40px;
+  margin-top: 500px;
+  color: #FFF;
+  background-color: #ff0055;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: 'Inter Tight', sans-serif;
 }
 
 .secao-botao:hover {
-    margin-left: 40px;
-    margin-top: 500px;
-    color: #FFF;
-    background-color: #FFBBD4;
-    padding: 20px;
-    border-radius: 20px;
-    font-family: 'Inter Tight', sans-serif;
-
-
+  margin-left: 40px;
+  margin-top: 500px;
+  color: #FFF;
+  background-color: #FFBBD4;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Inter Tight', sans-serif;
 }
-
 
 #Fairytopia {
-    display:inline-flex;
+  display: inline-flex;
 }
-
 .img {
-    border-radius: 50px;
+  border-radius: 50px;
+  border: 2px solid #ff0055;
+  padding: 0px;
+  box-shadow: 0 0 15px #ff0055;
+  margin-left: 70px;
 }
-
 .conteudo-container {
-    display: flex;
-    align-items: center; 
+  display: flex;
+  align-items: center;
 }
-  
-  .coluna-imagem {
-    flex: 1; 
-    padding: 20px;
-  }
-  
-  .coluna-texto {
-    flex: 2;
-    padding: 20px; 
-  }
-
-  #Mermaidia {
-    display: inline-flex;
-  }
-
-  .img2 {
-    border-radius: 50px;
+.coluna-imagem {
+  flex: 1;
+  padding: 20px;
+}
+.coluna-texto {
+  flex: 2;
+  padding: 70px;
 }
 
-  .conteudo-container2 {
-    display: flex;
-    align-items: center;
-  }
+#Mermaidia {
+  display: inline-flex;
+}
+.img2 {
+  border-radius: 50px;
+  border: 2px solid #ff0055;
+  padding: 0px;
+  box-shadow: 0 0 15px #ff0055;
+  margin-left: 70px;
+}
+.conteudo-container2 {
+  display: flex;
+  align-items: center;
+}
+.coluna-imagem2 {
+  flex: 1;
+  padding: 20px;
+}
+.coluna-texto2 {
+  flex: 2;
+  padding: 70px;
+}
 
-  .coluna-imagem2 {
-    flex: 1;
-    padding: 20px;
+#Mariposa {
+  display: inline-flex;
+}
+.img3 {
+  border-radius: 50px;
+  border: 2px solid #ff0055;
+  padding: 0px;
+  box-shadow: 0 0 15px #ff0055;
+  margin-left: 70px;
+}
+.conteudo-container3 {
+  display: flex;
+  align-items: center;
+}
+.coluna-imagem3 {
+  flex: 1;
+  padding: 20px;
+}
+.coluna-texto3 {
+  flex: 2;
+  padding: 70px;
+}
 
-  }
+footer {
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+  color: #ff0055;
+  background-color: #FEBDD5;
+}
 
-  .coluna-texto2 {
-    flex: 2;
-    padding: 20px;
-  }
-
-  #Mariposa {
-    display: inline-flex;
-  }
-
-  .img3 {
-    border-radius: 50px;
-  }
-
-  .conteudo-container3 {
-    display: flex;
-    align-items: center;
-  }
-
-  .coluna-imagem3 {
-    flex: 1;
-    padding: 20px;
-  }
-
-  .coluna-texto3 {
-    flex: 2;
-    padding: 20px;
-  }
-
-  footer {
-    text-align: center;
-    font-family: 'Inter Tight', sans-serif;
-    color: #ff0055;
-    background-color: #FEBDD5;
-  }
-
-  #sobre {
-    font-family: 'Inter Tight', sans-serif;
-    font-size: 20;
-    color:#ff0055;
-    margin-top: 50px;
-    text-align: center;
-    margin-top: 50px;
-
-
-  }
-
-  
-
-
+#sobre {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 20;
+  color: #ff0055;
+  margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+}
 
