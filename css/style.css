@@ -100,11 +100,13 @@ h3 {
 
 }
 
-.img {
-    border-radius: 50px;
-}
+
 #Fairytopia {
     display:inline-flex;
+}
+
+.img {
+    border-radius: 50px;
 }
 
 .conteudo-container {
@@ -115,13 +117,58 @@ h3 {
   .coluna-imagem {
     flex: 1; 
     padding: 20px;
-
-     
   }
   
   .coluna-texto {
     flex: 2;
     padding: 20px; 
+  }
+
+  #Mermaidia {
+    display: inline-flex;
+  }
+
+  .img2 {
+    border-radius: 50px;
+}
+
+  .conteudo-container2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .coluna-imagem2 {
+    flex: 1;
+    padding: 20px;
+
+  }
+
+  .coluna-texto2 {
+    flex: 2;
+    padding: 20px;
+  }
+
+  #Mariposa {
+    display: inline-flex;
+  }
+
+  .img3 {
+    border-radius: 50px;
+  }
+
+  .conteudo-container3 {
+    display: flex;
+    align-items: center;
+  }
+
+  .coluna-imagem3 {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .coluna-texto3 {
+    flex: 2;
+    padding: 20px;
   }
   
 
