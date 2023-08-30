@@ -21,6 +21,26 @@ header {
     
 }
 
+body {
+    background-color: #ffb7c9;
+   
+}
+
+body::before {
+    content: "";
+    background-image: url('../img/ee1b170518678b31fcc69492cf65fd32.jpg');
+    background-size:contain; 
+    background-repeat: repeat; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3; 
+    z-index: -1; 
+  }
+  
+
 h1 {
     color:#ff0055;
     text-align: center;
